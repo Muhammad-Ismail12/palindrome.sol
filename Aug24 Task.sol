@@ -33,7 +33,6 @@ contract Task3{
 contract Task4{
 
     function average(int a , int b , int c) public pure returns(int){
-        require(a > 0 || b > 0 || c > 0);
         return (a+b+c) / 3;
     } 
 }
